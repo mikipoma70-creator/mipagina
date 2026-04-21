@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h5 {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    font-size: 14px;
+}
+
+.btn-warning {
+    background-color: orange;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: darkorange;
+}
